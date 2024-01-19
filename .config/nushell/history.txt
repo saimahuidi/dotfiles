@@ -1,0 +1,1024 @@
+tldr chsh
+chsh -s /usr/bin/nu
+sudo vim /etc/shells
+chsh -s /usr/bin/nu
+cd
+ls
+which ls
+which cd
+ls | sort-by size | reverse
+ps
+ps | where cpu > 5
+ps
+ps | where cpu > 2
+ps | where cpu > 5
+ps | where cpu > 4
+ps | where cpu > 3
+ps | where cpu > 2
+ps | where cpu > 1
+date
+date now
+date now | date to-table
+sys
+sys | get host
+sys | get cpu
+sys | get host.sessions.name
+echo hello
+sys | get host.sessions.name | echo { |it| ^echo $it }
+sys | get host.sessions.name | each { |it| ^echo $it }
+sys | get host.sessions.name | each { |it| echo $it }
+env
+which env
+which ls
+which path
+path
+cd downloads/
+ls
+tar xvf helix-23.10-x86_64-linux.tar.xz --directory=../softwares/
+cd ../softwares/
+ls
+mv helix-23.10-x86_64-linux/ helix
+cd helix/
+ls
+sudo update-alternatives /usr/bin/hx hx /home/geoffrey/softwares/helix/hx 100
+sudo update-alternatives --install /usr/bin/hx hx /home/geoffrey/softwares/helix/hx 100
+hx
+ls
+cd
+ls
+cd tmp/
+ls
+hx main.cpp
+ls
+hx
+ls
+hx
+hx --health
+hx 
+ls
+cd 
+cd softwares/
+ls
+cd clangd_17.0.3/
+ls
+cd ..
+ls
+mv helix/ helix_23.10
+sudo update-alternatives --install /usr/bin/hx hx /home/geoffrey/softwares/helix_23.10/hx 100
+ls
+mv nushell/ nushell_0.88.1
+sudo update-alternatives --install /usr/bin/nu nu /home/geoffrey/softwares/nushell_0.88.1/nu 100
+ls
+hx
+ls
+vim
+mv nvim_0.9.4
+mv nvim-linux64/ nvim_0.9.4
+sudo update-alternatives --install /usr/bin/nvim nvim /home/geoffrey/softwares/nvim_0.9.4/nvim 100
+sudo update-alternatives --install /usr/bin/nvim nvim /home/geoffrey/softwares/nvim_0.9.4/bin/nvim 100
+nvim
+sudo update-alternatives --install /usr/bin/vim vim /home/geoffrey/softwares/nvim_0.9.4/bin/nvim 100
+vim
+ls
+cd
+ls
+sudo update-alternatives --install /usr/bin/clangd clangd /home/geoffrey/softwares/clangd_17.0.3/bin/clangd 100
+clangd
+ls
+clangd
+ls
+cd softwares/clangd_17.0.3/
+ls
+cd bin/
+ls
+./clangd
+sudo clangd
+ls
+cd ..
+ls
+cd ..
+rm -rf clangd_17.0.3/
+ls
+clangd
+ls
+cd clangd_17.0.3/
+ls
+cd bin/
+ls
+./clangd
+sudo clangd
+ls
+./clangd
+ls
+hx clangd
+ls
+cd ..
+ls
+which clangd
+sudo update-alternatives --install /usr/bin/clangd clangd /home/geoffrey/softwares/clangd_17.0.3/bin/clangd 100
+clangd
+which clangd
+ls
+cd ..
+zsh
+ls
+cd clangd_17.0.3/
+ls
+cd bin/
+ls
+tldr chmod
+chmod a+x clangd
+ls
+clangd
+ls
+hx --health
+cd
+ls
+cd projects/
+ls
+cd C++/
+ls
+cd leveldb/
+ls
+cd db/
+ls
+hx db_impl.cc
+cd ..
+ls
+cd ..
+cd C
+ls
+cd ics2023/
+ls
+cd
+curl -sS https://starship.rs/install.sh | sh
+ls
+hx .zshrc
+ls
+hx .zshrc
+which export
+export
+help export
+ls
+ls -a
+ls
+cd downloads/
+ls
+tar xvf zellij-x86_64-unknown-linux-musl.tar.gz ../softwares/
+tar xvf zellij-x86_64-unknown-linux-musl.tar.gz --directory=../softwares/
+cd ../softwares/
+ls
+cd ..
+cd downloads/
+ls
+cd ..
+ls
+cd softwares/
+./zellij
+ls
+./zellij --version
+mkdir zellij_0.39.2
+mv zellij zellij_0.39.2/
+ls
+sudo update-alternatives --install /usr/bin/zellij zellij /home/geoffrey/softwares/zellij_0.39.2/ 100
+ls
+zellij
+cd zellij_0.39.2/
+ls
+which zellij
+ls -l
+chmod a+x zellij
+zellij
+ls -l
+sudo update-alternatives --install /usr/bin/zellij zellij /home/geoffrey/softwares/zellij_0.39.2/zellij 100
+zellij
+sudo update-alternatives --install /usr/bin/zellij zellij /home/geoffrey/softwares/zellij_0.39.2/zellij 200
+ls
+cd
+zellij
+ls
+cd
+export ALL_PROXY="http://$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):7890"
+^export ALL_PROXY="http://$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):7890"
+^export
+export ALL_PROXY="http://$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):7890"
+cat /etc/resolv.conf
+cat /etc/resolv.conf | grep nameserver
+cat /etc/resolv.conf | grep nameserver | awk '{print $2}':7890
+which awk
+cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
+export ALL_PROXY="http://$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):7890"
+help export
+env
+which env
+tldr export
+export
+help export
+ls
+mkdir functions
+cd functions/
+ls
+hx proxy.sh
+zsh proxy.sh
+proxy
+hx proxy.sh
+zsh proxy.sh
+env
+hx proxy.sh
+cd 
+hx .config/nushell/env.nu
+which let
+help let
+let ALL_PROXY="http://$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):7890"
+help let
+echo $(cat /etc/resolv.conf)
+ls
+hx .zshrc
+cd
+$env
+$env | get USER
+$env.USER
+a = 2
+cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
+let x =  cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
+x
+echo x
+echo $x
+$x
+$env.ALL_PROXY = $x + ":7890"
+$env.ALL_PROXY
+$env.ALL_PROXY = "http://" + $x + ":7890"
+ping www.google.com
+wget www.google.com
+$env.ALL_PROXY
+hx .zshrc
+wget www.google.com
+zellij
+zsh
+ls
+cd
+ls
+zsh
+wget www.google.com
+ls
+vim a
+ls
+rm a index.html
+ls
+curl -sS https://starship.rs/install.sh | sh
+zellij
+curl -sS https://starship.rs/install.sh | sh
+ls
+which sh
+sh
+curl -sS https://starship.rs/install.sh | sh
+sys
+cd downloads/
+ls
+curl -sS https://starship.rs/install.sh | sh
+sudo curl -sS https://starship.rs/install.sh | sh
+ls
+wget https://github.com/starship/starship/releases/download/v1.17.1/starship-x86_64-unknown-linux-musl.tar.gz
+env
+wget https://github.com/starship/starship/releases/download/v1.17.1/starship-x86_64-unknown-linux-musl.tar.gz
+ls
+tar xvf starship-x86_64-unknown-linux-musl.tar.gz --directory=../softwares/
+cd ../softwares/
+ls
+./starship --version
+mkdir starship_1.75.0
+mv starship starship_1.75.0/
+sudo update-alternatives --install /usr/bin/starship starship /home/geoffrey/softwares/starship_1.75.0/starship 200
+starship
+cd
+hx .config/nushell/env.nu
+hx .config/nushell/config.nu
+zellij
+ls
+cd
+ls
+z
+which z
+ls
+sys
+sys | get mem
+ls
+cd projects/
+ls
+cd C
+ls
+cd ics2023/
+ls
+sudo apt install bear
+ls
+git config
+git branch
+ls
+echo $NEMU_HOME
+cd
+hx ~/.config/nushell/env.nu
+hx .zshrc
+zellij
+cd
+echo $NEMU_HOME
+hx ~/.config/nushell/env.nu
+zellij
+cd
+echo $NEMU_HOME
+echo $env.NEMU_HOME
+env
+hx ~/.config/nushell/env.nu
+zellij
+cd
+echo $env.NEMU_HOME
+hx ~/.config/nushell/env.nu
+echo $env.NU_PLUGIN_DIRS
+hx ~/.config/nushell/env.nu
+cd
+hx ~/.config/nushell/env.nu
+echo $env.NEMU_HOME
+cd
+s
+ls
+z
+auto
+cd projects/C/ics2023/
+ls
+git checkout -b pa0
+ls
+git branch
+hx Makefile
+git statur
+git status
+git diff
+git add .
+git commit
+git config --global core.editor hx
+git log
+cd nemu/
+make menuconfig
+sudo apt install bison
+make menuconfig
+sudo apt install flex
+make menuconfig
+make
+llvm-config --version
+make clean
+ls
+bear -- make
+ls
+make run
+make gdb
+git log
+cd ..
+ls
+hx Makefile
+ls
+git log
+git status
+git add .
+git commit
+git checkout master
+git log
+ls
+cd
+cd projects/C++/
+cd leveldb/
+ls
+tree
+tree .
+which tree
+ls
+sudo apt install tree
+tree
+tldr tree
+tree -f
+tree
+tldr tree
+tree -L 2
+ls
+cd include/
+ls
+cd leveldb/
+ls
+hx db.h
+ls
+hx c.h
+ls
+hx cache.h
+hx slice.h
+git branch
+gcc --version
+ls
+hx db.h
+ls
+hx
+ls
+cd ..
+hx include/leveldb/c.h
+hx include/leveldb/db.h
+ls
+hx
+ls
+cd ~/projects/C/ics2023/
+ls
+bash init.sh am-kernels
+ls
+cd am-kernels/tests/am-tests/
+make ARCH=native mainargs=k run
+lscpu
+make clean
+make ARCH=native mainargs=k run -j12
+make clean
+time make ARCH=native mainargs=k run
+make clean
+time make ARCH=native mainargs=k
+make clean
+time make ARCH=native mainargs=k -j12
+make clean
+cd ../../..
+ls
+cd nemu/
+make clean
+ls
+time make
+make clean
+time make -j12
+ls
+tree -L 2
+ls
+hx src/nemu-main.c
+ls
+hx src/nemu-main.c
+ls
+vim README.md
+ls
+hx src/nemu-main.c
+make run
+tldr dmesg
+sudo dmesg
+hx src/nemu-main.c
+cd ../../C/ics2023/
+cd nemu/
+make run
+ls
+ls
+ls
+cd ../../../C++/leveldb/
+ls
+git checkout =b gjw_study
+tldr git
+git checkout -b gjw_study
+s
+ls
+tree -L 2
+hx
+ls
+tree -L 2
+ls
+tree -L 2
+hx
+ls
+nvim --version
+nvim
+ls
+cd
+cd projects/C++/leveldb/
+ls
+cd
+cd downloads/
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
+z
+autojump
+tldr ssh-keygen
+cd
+ln /mnt/c/Downloads/ win_downloads
+tldr ln
+ln -s /mnt/c/Downloads/ win_downloads
+ls
+cd win_downloads/
+ls
+cd
+ln -sf /mnt/c/Users/12058/Downloads/ win_downloads
+cd win_downloads/
+ls
+cd Downloads/
+ls
+cd
+cd win_downloads/
+ls
+cd Downloads/
+ls
+cd ..
+ls
+cd
+ln -sf /mnt/c/Users/12058/Downloads/ win_downloads
+cd win_downloads/
+ls
+cd
+rm win_downloads/
+ls
+rm win_downloads
+ls
+ln -sf /mnt/c/Users/12058/Downloads/ win_downloads
+cd win_downloads/
+ls
+cd
+tar xvf `win_downloads/nvim-linux64 (2).tar.gz` --directory=softwares/
+ls
+cd softwares/
+ls
+mv nvim-linux64/ nvim_0.9.5
+sudo update-alternatives --install /usr/bin/nvim nvim /home/geoffrey/softwares/nvim_0.9.5/bin/nvim 101
+nvim
+cd
+nvim
+sudo apt install lua
+sudo apt install lua5.1
+lua5.1 
+lua
+ls
+vi
+ls
+mkdir quick_address
+mv win_downloads quick_address/
+cd .config/nvim/
+ls
+vim init.lua
+ls
+cd lua/
+ls
+cd ..
+ls
+cd lua/
+ls
+cd core/
+ls
+cd ..
+cd plugins/
+ls
+sudo update-alternatives --install /usr/bin/vi vi /home/geoffrey/softwares/nvim_0.9.5/bin/nvim 101
+vi
+cd ..
+ls
+mv plugin_init.lua plugins/
+hx ../init.lua
+ls
+cd ..
+ls
+cd lua/
+ls
+cd plugins/
+ls
+hx plugin_init.lua
+ls
+cd ..
+ls
+cd ..
+ls
+cd lua/
+ls
+vi
+hx ../init.lua
+vi
+ls
+mv plugins/ plugin
+hx ../init.lua
+ls
+cd plugin/
+ls
+vi
+ls
+hx ../../init.lua
+ls
+cd ..
+ls
+vi init.lua
+mkdir a
+hx a/b.lua
+vi
+hx init.lua
+ls
+rm -rf a
+ls
+mv lua/core/ core
+ls
+vi
+mv lua/plugin/ plugin
+ls
+rm -rf lua
+ls
+cd plugin/
+ls
+mkdir plugins
+mv * plugins/
+ls
+mv plugins/plugin_init.lua plugin_init.lua
+ls
+vi
+cd ..
+ls
+hx init.lua
+cd core/
+ls
+cd ..
+mkdir lua
+ls
+mv core/ lua
+mv plugin/ core
+ls
+cd lua/
+ls
+cd ..
+mv core/ lua/plugin
+ls
+tree -L 2
+vi
+ls
+cd lua/
+ls
+cd .config/nvim/
+ls
+cd lua/
+ls
+cd plugin/
+ls
+vi
+ls
+cd ..
+ls
+mv plugin/ plugins
+vi
+hx ../init.lua
+ls
+cd plugins/
+ls
+rm plugin_init.lua
+cd ..
+tree -L 2
+tree -L 3
+tree -L 4
+ls
+cd plugins/
+ls
+mv plugins/* .
+ls
+cd plugins/
+ls
+cd ..
+rm -rf plugins/
+ls
+vi
+hx init.lua
+tree -L 4
+ls
+ls
+tree -L 4
+vim
+vi
+vi
+ls
+cd ..
+cd core/
+ls
+vi init.lua
+vi plugin.lua
+tree -L 4
+ls
+l
+cd
+ls
+cd .config/nvim/
+ls
+tree -L 4
+vim lua/plugins/cmp-nvim-lsp.lua
+ls
+vi
+ls
+tree -L 4
+vi lua/plugins/mason.lua
+vi lua/plugins/mason-lspconfig.lua
+vi
+vi lua/plugins/mason-lspconfig.lua
+vi lua/plugins/lspconfig.lua
+ls
+vi lua/plugins/nvim-cmp.lua
+ls
+vi lua/plugins/nvim-cmp.lua
+mv lua/core/plugin.lua lua/plugins/
+vi
+ls
+vi init.lua
+mv lua/plugins/plugin.lua lua/plugins/plugin_init.lua
+vi
+vi init.lua
+vi
+vi init.lua
+vi
+vi lua/plugins/plugin_init.lua
+vi
+ls
+tree -L 4
+vi lua/plugins/plugin_init.lua
+vi
+hx lua/plugins/nvim-cmp.lua
+vi lua/plugins/plugin_init.lua
+hx lua/plugins/nvim-cmp.lua
+vi lua/plugins/plugin_init.lua
+vi
+vi lua/plugins/plugin_init.lua
+vi init.lua
+vi lua/plugins/plugin_init.lua
+cd .config/nvim/
+ls
+cd lua/
+ls
+cd plugins/
+ls
+mkdir lsp_plugins
+mv mason.lua lsp_plugins/
+mv mason-lspconfig.lua lsp_plugins/
+mv lspconfig.lua lsp_plugins/
+ls
+mkdir cmp_plugins
+mv nvim-cmp.lua cmp_plugins/
+mv luasnip.lua cmp_plugins/
+ls
+mv cmp-nvim-lsp.lua cmp_plugins/
+ls
+cd lsp_plugins/
+ls
+cd lsp_plugins/
+vi lua/plugins/plugin_init.lua
+cd ..
+cd cmp_plugins/
+ls
+vi lua/plugins/plugin_init.lua
+ls
+vi
+hx lua/plugins/nvim-cmp.lua
+mv cmp-nvim-lsp.lua cmp_nvim_lsp.lua
+mv nvim-cmp.lua nvim_cmp.lua
+hx lua/plugins/cmp_plugins/nvim-cmp.lua
+hx lua/plugins/plugin_init.lua
+vi
+ls
+hx lua/plugins/cmp_plugins/nvim_cmp.lua
+vi
+vi lua/plugins/plugin_init.lua
+lsz
+ls
+cd ..
+cd lsp_plugins/
+mv mason-lspconfig.lua mason_lspconfig.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+ls
+vi init.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+vi lua/plugins/cmp_plugins/cmp_nvim_lua.lua
+vi init.lua
+vi mason.lua
+cd ..
+vi lua/plugins/plugin_init.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+vi lua/core/basic.lua
+vi lua/core/keybindings.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+cd
+cd projects/C++/leveldb/
+ls
+vi db/autocompact_test.cc
+cd ~/projects/C/ics2023/
+cd ~/projects/C/ics2023/
+cd ~/projects/C/ics2023/
+ls
+git status
+ls
+vi lua/plugins/lsp_plugins/mason_lspconfig.lua
+vi lua/plugins/lsp_plugins/lspconfig.lua
+ls
+cd
+cd projects/
+ls
+mkdir GO
+rmdir GO
+mkdir Go
+cd Go/
+ls
+git clone https://github.com/tidb-incubator/tinykv.git
+cd
+cd downloads/
+ls
+wget https://go.dev/dl/go1.21.6.linux-amd64.tar.gz
+tar xvf go1.21.6.linux-amd64.tar.gz --directory=softwares/
+tar xvf go1.21.6.linux-amd64.tar.gz --directory=../softwares/
+cd
+cd softwares/
+ls
+cd go/
+cd ..
+ls
+mv go go_1.21.6
+ls
+cd go_1.21.6/
+ls
+cd bin/
+ls
+cd ..
+sudo update-alternatives --install /usr/bin/go go /home/geoffrey/softwares/go_1.21.6/bin/go 100
+go --version
+ls
+go --version
+ls
+cd tinykv/
+ls
+make
+ls
+git branch
+ls
+git log
+ls
+cd ..
+ls
+rm -rf tinykv/
+git clone https://github.com/talent-plan/tinykv-saimahuidi.git
+git clone git@github.com:talent-plan/tinykv-saimahuidi.git
+ls
+git clone git@github.com:talent-plan/tinykv-saimahuidi.git
+rm -rf tinykv/
+git clone git@github.com:talent-plan/tinykv-saimahuidi.git
+ls
+git clone git@github.com:talent-plan/tinykv-saimahuidi.git
+ls
+cd tinykv-saimahuidi/
+ls
+git log
+ls
+sudo apt install mdless
+ls
+sudo apt install glow
+ls
+vi README.md
+ls
+vi scripts/.get_perf.sh
+cd
+cd downloads/
+ls
+wget https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow_Linux_x86_64.tar.gz
+vi include/leveldb/slice.h
+ls
+vi lua/core/keybindings.lua
+git
+git branch
+git log
+git branch
+git merge pa0
+git log
+ls
+cd nemu/
+ls
+make run
+ls
+git checkout -b pa1
+ls
+vi lua/core/keybindings.lua lua/core/basic.lua
+ls
+vi
+ls
+clangd --version
+vi
+ls
+vi include/leveldb/slice.h
+ls
+vi CMakeLists.txt
+ls
+vi lua/core/keybindings.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+vi lua/plugins/plugin_init.lua
+vi cmp_plugins/cmp_nvim_lua.lua
+ls
+vi lua/plugins/tools_plugins
+vi lua/plugins/tools_plugins/which_key.nvim
+mkdir lua/plugins/tools_plugins
+rm -rf lua/plugins/tools_plugins
+mkdir lua/plugins/tools_plugins
+vi lua/plugins/tools_plugins/which_key.lua
+vi
+vi lua/plugins/plugin_init.lua
+mkdir lua/plugins/colorscheme_plugins
+vi lua/plugins/colorscheme_plugins/tokyonight.lua
+vi lua/plugins/plugin_init.lua
+ls
+vi lua/core/basic.lua
+vi lua/core/colorscheme.lua
+vi init.lua
+vi
+ls
+vi lua/plugins/lsp_plugins/neodev.lua
+vi
+vim lua/plugins/tools_plugins/plenary.lua
+vi lua/plugins/plugin_init.lua
+vim lua/plugins/tools_plugins/neo_tree.lua
+vi lua/plugins/plugin_init.lua
+vi
+ls
+vi init.lua
+vim lua/core/keybindings.lua
+vi
+ls
+vi
+ls
+ls -a
+vi
+vi lua/core/keybindings.lua
+vi
+cd
+vi
+cd projects/C++/leveldb/
+vi
+vi
+zellij
+ls
+vi
+vi /mnt/c/Users/12058/AppData/Roaming/alacritty/alacritty.toml
+vi
+vivi /mnt/c/Users/12058/AppData/Roaming/alacritty/alacritty.toml
+vi /mnt/c/Users/12058/AppData/Roaming/alacritty/alacritty.toml
+cd
+vi
+vi .config/nvim/
+:q
+zellij
+ls
+g++ --version
+vi
+vi .config/nvim/
+vi
+vi .config/nvim/
+python
+python3
+vi
+tldr fzf
+fzf
+sudo apt install fzf
+fzf
+tldr fzf
+tldr find
+vi .config/nvim/**
+fzf
+fzf -d
+tldr fzf
+fzf
+ripgrep
+tldr ripgrep
+tldr rg
+sudo apt install rgrep 
+sudo apt install ripgrep
+rg
+tldr rg
+fzf --version
+sudo apt install fd
+sudo apt install fd-find
+vi .config/nvim
+ls
+vi
+sudo apt install tree-sitter
+vi .config/nvim
+cd projects/C++/leveldb/
+vi
+sudo apt install emacs
+emacs
+ls
+cd projects/C++/
+mkdir executor_demo
+cd executor_demo/
+vi
+cd
+vi .config/nvim
+vi
+vi .config/nvim
+zellij
+vi
+vi tmp
+vi .config/nvim
+cd projects/C++/executor_demo/
+vi ~/.config/nvim
+vi
+vi ~/.config/nvim
+vi
+cd
+cd ~/.config
+git init
+cd ..
+cd projects/
+ls
+mkdir tools
+cd tools/
+mkdir dotfiles
+cd dotfiles/
+cd ..
+rmdir dotfiles/
+git clone git@github.com:saimahuidi/dotfiles.git
+tldr cp
+cp -vR ~/.config/ dotfiles/.config
+cp -v ~/.config/ dotfiles/.config
