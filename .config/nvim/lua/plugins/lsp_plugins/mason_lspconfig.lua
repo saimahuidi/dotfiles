@@ -1,4 +1,4 @@
-local ensure_installed = { "lua_ls", "clangd" }
+local ensure_installed = { "lua_ls", "clangd", "pyright"}
 
 return {
   "williamboman/mason-lspconfig.nvim",

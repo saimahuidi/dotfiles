@@ -3,6 +3,7 @@ local lsp_config = function()
   lspconfig.clangd.setup{}
   lspconfig.lua_ls.setup{}
   lspconfig.cmake.setup{}
+  lspconfig.pyright.setup{}
 end
 
 return {

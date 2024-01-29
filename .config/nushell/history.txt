@@ -1022,3 +1022,305 @@ git clone git@github.com:saimahuidi/dotfiles.git
 tldr cp
 cp -vR ~/.config/ dotfiles/.config
 cp -v ~/.config/ dotfiles/.config
+cp -rv ~/.config/ dotfiles/.config
+ls
+cd dotfiles/
+ls
+git status
+git add *
+cd .config/
+ls
+ls -a
+rm -rf .git/
+cd ..
+git add *
+git log
+git config --global core.editor vi
+git commit
+git push
+ls
+cd
+cd .config/
+rm -rf .git/
+ls
+cd
+ls
+cd
+ls
+vi
+ls
+vi
+ls
+cd tmp/
+ls
+vim main.cpp
+g++ main.cpp
+ls
+./a.out
+g++ main.cpp
+./a.out
+g++ main.cpp
+./a.out
+g++ main.cpp
+./a.out
+g++ main.cpp
+./a.out
+g++ main.cpp
+vim main.cpp
+ls
+top
+ps
+ls
+ls
+vi
+ls
+ls
+cd
+vi
+ls
+cd tmp/
+ls
+g++ main.cpp
+./a.out
+g++ main.cpp
+ls
+./a.out
+ls
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+rm a.out
+ls
+g++ check_rvalue.cpp
+ls
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+ls
+gdb a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+vi check_rvalue.cpp
+ls
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+g++ check_rvalue.cpp
+./a.out
+vi check_rvalue.cpp
+ls
+vi
+vi
+cd ..
+vi
+cd .config/nvim/
+vi lua/core/keybindings.lua
+vi init.lua
+vi lua/core/keybindings.lua
+vi lua/plugins/tools_plugins/comment.lua
+vi lua/plugins/plugin_init.lua
+vi lua/core/keybindings.lua
+ls
+vi
+ls
+cd projects/
+ls
+mkdir python
+cd python/
+ls
+vi tmp.py
+sudo apt install npm
+vi tmp.py
+vi lua/plugins/lsp_plugins/lspconfig.lua
+vi lua/plugins/lsp_plugins/mason_lspconfig.lua
+vi lua/plugins/cmp_plugins/nvim_cmp.lua
+vi 
+vi
+vi tmp.py
+ls
+python3
+cd ..
+cd C/ics2023/
+ls
+make clean
+cd nemu/
+make clean
+make menuconfig
+ls
+make run -nB
+make menuconfig
+make run -nB
+make run
+ls
+vi
+gdb --version
+cd
+ls
+gdb -i dap
+cd
+ls
+cd downloads/
+wget https://sourceware.org/pub/gdb/releases/gdb-14.1.tar.gz
+ls
+tar xvf gdb-14.1.tar.gz --directory=../softwares/
+cd
+cd softwares/
+ls
+cd gdb-14.1/
+ls
+cd gdb/
+ls
+cd ..
+ls
+vi ltmain.sh
+ls
+vi README
+./configure
+g++ --version
+sudo apt install GMP
+sudo apt install MPFR
+sudo apt install gmp
+sudo apt install mpfr
+sudo apt install gmp-6
+sudo apt install libgmp
+cd ..
+cd downloads/
+wget https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.gz
+tar xvf gmp-6.3.0.tar.gz --directory=../softwares/
+ls
+cd gmp-6.3.0/
+ls
+./configure
+vi README
+wget https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.1.tar.gz
+tar xvf mpfr-4.2.1.tar.gz --directory=../softwares/
+sudo make install 
+cd ..
+cd mpfr-4.2.1/
+ls
+lscpu 
+./configure
+sudo make install -j12
+top
+cd ../gdb-14.1/
+./configure
+vi README
+make
+make -j12
+ls
+cd gdb/
+ls
+cd ..
+ls
+vi install-sh
+ls
+htop
+cd gdb/
+ls
+readelf gdb
+readelf -h gdb
+sudo update-alternatives --install /usr/bin/gdb gdb /home/geoffrey/softwares/gdb-14.1/gdb/gdb 100
+gdb --version
+which gdb
+gdb --version
+sudo update-alternatives --install /usr/bin/gdb gdb /home/geoffrey/softwares/gdb-14.1/gdb/gdb 100
+tldr apt
+sudo apt remove gdb
+gdb --version
+sudo update-alternatives --install /usr/bin/gdb gdb /home/geoffrey/softwares/gdb-14.1/gdb/gdb 100
+gdb --version
+cd ..
+ls
+gdb --data-directory=/home/geoffrey/softwares/gdb-14.1/gdb/data-directory/ --version
+./configure --enable-tui=yes --with-python
+make clean
+make
+make -j12
+gdb --version
+sudo make install -j12
+gdb --version
+which gdb
+vi
+cd nemu/
+make run
+vi src/nemu-main.c
+cd build/
+ls
+readelf -h riscv32-nemu-interpreter
+./riscv32-nemu-interpreter
+htop
+ps
+tldr kill
+ps
+kill -9 250854 250891 251184
+ps
+vi
+vi src/nemu-main.c
+gdb --version
+vi
+cd
+cd
+ls
+cd tmp/
+ls
+g++ main.cpp
+./a.out
+g++ main.cpp
+./a.out
+ls
+make run
+ls
+git log
+ls
+cd 
+cd projects/tools/
+ls
+cd dotfiles/
+ls
+ls -a
+la
+rm -rf .config/
+mv ~/.config/ /
+cp ~/.config/ /
+cp --recursive ~/.config/ /
+ls
+ls -a
+cd ..

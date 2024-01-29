@@ -57,6 +57,8 @@ local telescope = require(tools_plugins_prefix .. "telescope")
 table.insert(all_plugins, telescope)
 local nvim_treesitter = require(tools_plugins_prefix .. "nvim_treesitter")
 table.insert(all_plugins, nvim_treesitter)
+local comment = require(tools_plugins_prefix .. "comment")
+table.insert(all_plugins, comment)
 
 -- about colorscheme
 local colorscheme_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/colorscheme_plugins"
@@ -65,6 +67,14 @@ local colorscheme_plugins_prefix = "plugins.colorscheme_plugins."
 local tokyonight = require(colorscheme_plugins_prefix .. "tokyonight")
 table.insert(all_plugins, tokyonight)
 
+-- about dap
+local dap_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/dap_plugins"
+vim.opt.rtp:prepend(dap_plugins_path)
+local dap_plugins_prefix = "plugins.dap_plugins."
+local nvim_dap = require(dap_plugins_prefix .. "nvim_dap")
+table.insert(all_plugins, nvim_dap)
+local nvim_dap_ui = require(dap_plugins_prefix .. "nvim_dap_ui")
+table.insert(all_plugins, nvim_dap_ui)
 
 require("lazy").setup(all_plugins)
 return {}
