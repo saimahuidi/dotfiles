@@ -103,5 +103,8 @@ $env.NU_PLUGIN_DIRS = [
 mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 
+# for nemu
 $env.NEMU_HOME = '/home/geoffrey/projects/C/ics2023/nemu'
 $env.AM_HOME = '/home/geoffrey/projects/C/ics2023/abstract-machine'
+
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/geoffrey/.cargo/bin')

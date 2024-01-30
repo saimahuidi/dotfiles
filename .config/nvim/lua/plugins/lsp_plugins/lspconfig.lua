@@ -4,6 +4,7 @@ local lsp_config = function()
   lspconfig.lua_ls.setup{}
   lspconfig.cmake.setup{}
   lspconfig.pyright.setup{}
+  lspconfig.nushell.setup{}
 end
 
 return {

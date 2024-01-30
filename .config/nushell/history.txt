@@ -1324,3 +1324,278 @@ cp --recursive ~/.config/ /
 ls
 ls -a
 cd ..
+cp -rv ~/.config/ dotfiles/.config
+ls
+cd dotfiles/
+ls -a
+git status
+git add *
+git commit
+git push
+ls
+cd .config/
+ls
+cd procps/
+ls
+ls -a
+ls
+which sh
+which bask
+which bash
+vi
+vi main.cpp
+vi
+cd
+ls
+nushell --version
+nu --version
+ls
+cd downloads/
+ls
+ls *.gz
+ls --full-paths 
+ls --long 
+cd
+ls --long 
+ls --short-names 
+ls
+ls --mime-type 
+ls --help 
+cd projects/C/ics2023/nemu/
+ls **/*.mk
+tldr pwd
+pwd
+vi
+cd 
+cd tmp/
+ls
+vi test.nu
+cd
+cd .config/nvim/
+ls
+vi
+cd ..
+nu --lsp
+pwd -h 
+which nu
+vi
+nu --version
+nu --lsp
+tldr nu
+cd
+cd downloads/
+ls
+wget https://github.com/nushell/nushell/releases/download/0.89.0/nu-0.89.0-x86_64-linux-gnu-full.tar.gz
+tar xvf nu-0.89.0-x86_64-linux-gnu-full.tar.gz --directory=../softwares/
+cd ../softwares/
+ls
+mv nu-0.89.0-x86_64-linux-gnu-full/ nushell_89.0
+sudo update-alternatives --install /usr/bin/nu nu /home/geoffrey/softwares/nushell_89.0/nu 101
+nu --version
+cd ../.config/
+which nu
+vi
+cd
+ls
+ls | length 
+ls
+source --help 
+ls
+ls | enumerate | each { |it| $"Number ($it.index) is size ($it.item.size)" }
+ls | enumerate
+[one, two, three, four, five, six] | reduce {|curr, max|<\n>    if ($curr | str length) > ($max | str length) {<\n>        $curr<\n>    } else {<\n>        $max<\n>    }<\n>}
+def --help 
+which echo
+[one two three] | to yaml
+{'name': 'nu', 'stars': 5, 'language': 'Python'} | upsert language 'Rust'
+{'name': 'nu', 'stars': 5, 'language': 'Python'} | upsert language 'Rust' | into string
+[[framework, language]; [Django, Python] [Lavarel, PHP]]
+[[framework, language]; [Django, Python] [Lavarel, PHP]] | into string
+[{name: 'Robert' age: 34 position: 'Designer'}<\n>     {name: 'Margaret' age: 30 position: 'Software Developer'}<\n>     {name: 'Natalie' age: 50 position: 'Accountant'}<\n>    ]
+$'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+$'(ansi purple_bold)This text is a bold purple!'
+ls
+"hello"
+$'(ansi purple_bold)This text is a bold purple!(ansi reset)hello'
+ls
+cd .config/nvim/
+vi
+hx lua/plugins/tools_plugins/nvim_treesitter.lua
+vi
+ls
+cd
+$env.PATH
+$nu.config-path
+vi $nu.config-path
+cd
+vi $nu.config-path
+ls
+vi
+vi $nu.config-path
+ls
+zellij
+cd
+ls
+z
+vi $nu.config-path
+zellij
+vi $nu.config-path
+where --help 
+ls **/*.mk
+ls **/Makefile | get name | vim $in
+cd -
+cd
+touch --help 
+ls
+save --help 
+run-external --help 
+open --help 
+open tmp/main.cpp
+str --help
+nproc 
+which nproc
+$env
+vi $nu.config-path
+cd
+ps
+kill -9 5558 29494
+ps
+ls
+ps
+ps | where mem > 128Mb
+ps | where mem > 128MB
+ps | where mem > 128MiB
+ps | where mem > 128KiB
+source --help 
+source-env --help 
+source --help 
+ls
+describe --help
+explore --help
+sys | explore
+explore --peek 
+sys | explore --peek 
+ls
+seq --help
+seq 1.0 0.2 2.0
+ls
+ls | each { |it| print $"file name = ($it.name) and ($in)" }
+ls | each { print $"file name = ($in.name)" }
+ls
+which curl
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+vi ~/.cargo/env
+zellij
+cd
+rust --version
+rustc --version
+rustup update
+which rustc
+ls
+sudo apt remove rustc-1.62 
+sudo apt remove rustc 
+which rustc
+rustc
+vi ~/.cargo/env
+cd .cargo/bin/
+ls
+./rustc --version
+cd ..
+ls
+cd ..
+ls
+cd .cargo/
+ls
+vi env
+def --help 
+vi $nu.config-path
+$env
+env
+which env
+$env
+vi $nu.config-path
+$env | table -e
+vi $nu.config-path
+ls
+cd
+ls -a
+cd .config/nushell/
+ls
+vim config.nu
+$env.PATH
+$env.PATH | split row (char esep)
+$env.PATH
+$env.PATH | split row (char esep) | prepend "ss"
+$env.PATH | split row (char esep)
+vi env.nu
+zellij
+cd
+rustc --version
+cd
+ls
+ls
+vi
+cd .config/nvim/
+vi
+['foo', 'bar'] | each {|s| '~/' ++ $s}
+['foo', 'bar'] | each { '~/' ++ $in}
+"hello" | append "world!"
+"hello"
+"hello" | append "world!" | describe 
+"hello" | append "world!" | into string
+into --help 
+"hello" | append "world!" | into string
+"hello" | append "world!" | into string | describe 
+enumerate --help
+[a b c]
+reduce --help
+upsert  --help 
+ls
+cd ..
+ls
+./auto_push.nu
+chmod a+x auto_push.nu
+ls
+./auto_push.nu
+pwd
+which pwd
+$PWD
+rm --help 
+cp --help 
+vi auto_push.nu
+./auto_push.nu
+cd projects/tools/
+ls
+git clone git@github.com:saimahuidi/dotfiles.git
+ls
+cd ..
+cp -rv .config/ .config-backup/
+cp -rv .config/ .config-backup
+cd .config-backup/
+ls
+cd ..
+ls
+cd .config/
+ls
+./auto_push.nu
+ls
+./auto_push.nu
+git clone git@github.com:saimahuidi/dotfiles.git
+vi auto_push.nu
+./auto_push.nu
+vi auto_push.nu
+./auto_push.nu
+vi auto_push.nu
+$"($env.PWD)/tmp" | path exists 
+$"($env.PWD)/nvim" | path exists 
+vi auto_push.nu
+./auto_push.nu
+if 2 < 3 {true}
+if true {true}
+vi auto_push.nu
+./auto_push.nu
+path exists e
+path exists --help 
+vi auto_push.nu
+./auto_push.nu
+vi auto_push.nu

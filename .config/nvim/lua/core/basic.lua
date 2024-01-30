@@ -79,3 +79,9 @@ vim.o.showtabline = 2
 -- 使用增强状态栏插件后不再需要 vim 的模式提示
 vim.o.showmode = false
 vim.opt.termguicolors = true
+-- add filetype nu
+vim.filetype.add({
+  extension = {
+    nu = "nu",
+  },
+})
