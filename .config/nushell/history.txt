@@ -1599,3 +1599,234 @@ path exists --help
 vi auto_push.nu
 ./auto_push.nu
 vi auto_push.nu
+./auto_push.nu
+cd dotfiles/
+ls
+ls -a
+git log
+cd .config/
+ls
+cd nvim/
+ls
+zellij
+cd
+cd .config/
+ls
+vi
+ls
+vi auto_push.nu
+ls
+def --help 
+scope aliases 
+scope externs 
+scope commands 
+scope variables 
+scope engine-stats 
+scope aliases 
+goto --help
+g
+shells
+show
+config nu 
+which goto
+tr --help
+par-each --help 
+complete --help 
+do { ^sleep 1 } | complete
+which cat
+$nu.config-path
+^cat auto_push.nu
+open auto_push.nu
+open --help 
+from --help 
+ls
+htop --help
+top --version
+top -h
+top -hv
+vi auto_push.nu
+input --help 
+input 
+vi auto_push.nu
+input | describe 
+vi auto_push.nu
+reduce --help
+ls
+cd
+ls
+cd projects/
+ls
+mkdir Rust
+cd Rust/
+ls
+mkdir hello_world
+cd hello_world/
+vi main.rs
+vi
+vi main.rs
+which rust-analyzer 
+rust-analyzer --version
+rust-analyzer
+which rust-analyzer 
+rustc --version
+rustfmt-1.62 --version
+sudo apt remove rustfmt-1.62 
+rust-analyzer 
+vi main.rs
+~/.local/share/nvim/mason/bin/rust-analyzer
+~/.local/share/nvim/mason/bin/rust-analyzer --version
+ls
+vi main.rs
+ls
+vi main.rs
+sudo apt install clipy
+sudo apt install clippy
+which clippy-driver
+clippy-driver --help
+vi main.rs
+cargo --help
+zellij
+cd
+cd projects/Rust/hello_world/
+vi main.rs
+touch Cargo.toml
+ls
+vi main.rs
+rm Cargo.toml
+cd tmp/
+vi main.cpp
+cd ../.config/
+vi main.rs
+ls
+rustc main.rs
+ls
+./main
+g++ main.rs
+gdb main.rs
+gcc main.rs
+cd ..
+ls
+rm -r hello_world/
+cargo hellp_cargo
+ls
+cd ..
+cargo hello_cargo
+ls
+cargo new hello_cargo
+ls
+cd hello_cargo/
+ls
+cd hello_cargo/
+cargo build
+ls
+tree target/
+./target/debug/hello_cargo
+cargo run
+cd ..
+cargo new guessing_game
+cd guessing_game/
+vi
+ls
+cd ..
+cd guessing_game/
+ls
+cargo run
+cd ..
+ls
+git clone git clone https://github.com/skyzh/mini-lsm<\n>
+git clone https://github.com/skyzh/mini-lsm
+cd mini-lsm/
+cargo x --help
+cargo x install-tools
+ls
+cargo --help
+cargo help x
+cargo x copy-test --week 1 --day 1
+cargo x scheck
+ls
+cargo build
+cargo run
+vi
+cd ..
+ls
+cd ..
+ls
+cd
+cd projects/Rust/
+ls
+cd hello_cargo/
+cd ..
+cd guessing_game/
+ls
+cd
+cd projects/C++/
+ls
+cd leveldb/
+ls
+cd
+ls
+vi
+cd .config/
+vi
+cd ../
+cd projects/C++/
+cd leveldb/
+ls
+vi
+cd nvim/
+ls
+vi
+vi
+cd ..
+cd Rust/
+cd mini-lsm/
+vi
+cd ..
+ls
+cd hello_cargo/
+ls
+vi
+cd ..
+cargo new my-project
+ls my-project/
+cd my-project/
+ls
+cd ..
+ls
+cd ..
+ls
+cd C++/
+ls
+cd executor_demo/
+ls
+sudo apt install xclip
+xclip -h
+clip.exe -h
+clip.exe /?
+xclip -h
+tldr xclip
+echo 123 | xclip
+echo 123 | xclip -sel clip
+echo 123
+echo 123 | xclip -sel clip
+xclip -o
+xclip -o -sel clip
+echo 123 | xclip -sel clip
+xclip -o -sel clip
+clip.exe /?
+ls
+open executor.cpp | clip.exe 
+clip.exe 
+clip.exe -o
+clip.exe /?
+"template <class T><\n>struct just_sender {<\n>  T value;<\n>  <\n>  template<class R><\n>  friend just_operation<R, T> connect(just_sender self, R rec) {<\n>    return {{}, rec, self.value};<\n>  }<\n>};" | clip.exe 
+clangd -h
+vi 
+vi ~/.config/clangd/config.yaml
+touch ~/.config/clangd/config.yaml
+mkdir ~/.config/clangd
+vi ~/.config/clangd/config.yaml
+clang++
+ls
+cd ..
+ls

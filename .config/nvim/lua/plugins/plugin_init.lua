@@ -59,6 +59,10 @@ local nvim_treesitter = require(tools_plugins_prefix .. "nvim_treesitter")
 table.insert(all_plugins, nvim_treesitter)
 local comment = require(tools_plugins_prefix .. "comment")
 table.insert(all_plugins, comment)
+local noice = require(tools_plugins_prefix .. "noice")
+table.insert(all_plugins, noice)
+local dashboard_nvim = require(tools_plugins_prefix .. "dashboard_nvim")
+table.insert(all_plugins, dashboard_nvim)
 
 -- about colorscheme
 local colorscheme_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/colorscheme_plugins"
