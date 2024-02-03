@@ -70,6 +70,10 @@ vim.opt.rtp:prepend(colorscheme_plugins_path)
 local colorscheme_plugins_prefix = "plugins.colorscheme_plugins."
 local tokyonight = require(colorscheme_plugins_prefix .. "tokyonight")
 table.insert(all_plugins, tokyonight)
+local kanagawa = require(colorscheme_plugins_prefix .. "kanagawa")
+table.insert(all_plugins, kanagawa)
+local catppuccin = require(colorscheme_plugins_prefix .. "catppuccin")
+table.insert(all_plugins, catppuccin)
 
 -- about dap
 local dap_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/dap_plugins"

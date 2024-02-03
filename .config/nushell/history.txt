@@ -1830,3 +1830,100 @@ clang++
 ls
 cd ..
 ls
+./auto_push.nu
+ls
+g++ executor.cpp
+g++ --help
+g++ -std=c++20 executor.cpp
+ls
+./a.out
+cd
+cd .config/
+ls
+cd
+cd projects/C++/
+ls
+cd executor_demo/
+g++ -std=c++20 executor.cpp
+./a.out
+vi
+vi
+cd
+cd projects/C/
+git clone https://github.com/neovim/neovim.git
+ls
+cd
+ls
+cd .config-backup/nvim/
+ls
+cd
+ls
+vi auto_update.nu
+ls
+cd ..
+mv .config-backup/nvim/auto_update.nu .config-backup/nvim/
+vi auto_update.nu
+cd .config-backup/nvim/
+ls
+chmod a+x auto_update.nu
+cd downloads/
+ls
+rm nvim-linux64.tar.gz
+vi auto_update.nu
+./auto_update.nu
+cd ..
+vi auto_update.nu
+./auto_update.nu
+vi .config-backup/auto_push.nu
+ls
+vi auto_update.nu
+./auto_update.nu
+vi .config-backup/auto_push.nu
+path exists --help 
+vi auto_update.nu
+./auto_update.nu
+ls
+vi .config/auto_push.nu
+cd softwares/
+ls
+sudo update-alternatives --install /usr/bin/nvim nvim /home/geoffrey/softwares/nvim-linux64/bin/nvim 103
+vi
+vi --version
+cd nvim-linux64/
+cd /bin/
+ls
+./nvim --version
+sudo update-alternatives --install /usr/bin/nvim nvim /home/geoffrey/softwares/nvim-linux64/bin/nvim 110
+nvim
+nvim --version
+cd
+vi auto_update.nu
+cd ..
+vi .config/auto_push.nu
+vi .config-backup/nvim/auto_update.nu
+vi .config/nvim/auto_update.nu
+mv ~/.config-backup/nvim/auto_update.nu ~/.config/nvim/
+rm -r .config-backup/
+cd .config/nvim/
+ls
+nvim auto_update.nu
+vi auto_update.nu
+cd 
+vi .config/nushell/config.nu
+zellij
+cd
+vi --version
+vi
+nvim -V1 -v
+vi
+ls
+vi
+ls
+cd .config/nvim/
+cd ..
+ls
+vi
+ls
+ls -a
+./auto_update.nu
+ls
