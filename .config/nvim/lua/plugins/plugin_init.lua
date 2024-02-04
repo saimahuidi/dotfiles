@@ -25,6 +25,8 @@ local lspconfig = require(lsp_plugins_prefix .. "lspconfig")
 table.insert(all_plugins, lspconfig)
 local neodev = require(lsp_plugins_prefix .. "neodev")
 table.insert(all_plugins, neodev)
+-- local lsp_signature = require(lsp_plugins_prefix .. "lsp_signature")
+-- table.insert(all_plugins, lsp_signature)
 
 -- about cmp
 local cmp_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/cmp_plugins"
@@ -36,8 +38,6 @@ local luasnip = require(cmp_plugins_prefix .. "luasnip")
 table.insert(all_plugins, luasnip)
 local nvim_cmp = require(cmp_plugins_prefix .. "nvim_cmp")
 table.insert(all_plugins, nvim_cmp)
-local cmp_nvim_lua = require(cmp_plugins_prefix .. "cmp_nvim_lua")
-table.insert(all_plugins, cmp_nvim_lua)
 
 --about tools
 local tools_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/tools_plugins"
@@ -63,6 +63,10 @@ local noice = require(tools_plugins_prefix .. "noice")
 table.insert(all_plugins, noice)
 local dashboard_nvim = require(tools_plugins_prefix .. "dashboard_nvim")
 table.insert(all_plugins, dashboard_nvim)
+local projects = require(tools_plugins_prefix .. "projects")
+table.insert(all_plugins, projects)
+local trouble = require(tools_plugins_prefix .. "trouble")
+table.insert(all_plugins, trouble)
 
 -- about colorscheme
 local colorscheme_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/colorscheme_plugins"

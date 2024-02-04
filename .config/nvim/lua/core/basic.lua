@@ -1,3 +1,5 @@
+-- 自动保存
+vim.g.autowriteall = true
 -- utf8
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = 'utf-8'
@@ -84,4 +86,13 @@ vim.filetype.add({
   extension = {
     nu = "nu",
   },
+})
+vim.api.nvim_create_autocmd('LspAttach', {
+  group = vim.api.nvim_create_augroup('InlayHint', {}),
+  callback = function(ev)
+    -- Buffer local mappings.
+    -- See `:help vim.lsp.*` for documentation on any of the below functions
+    local opts = { buffer = ev.buf }
+    vim.lsp.inlay_hint.enable()
+  end,
 })

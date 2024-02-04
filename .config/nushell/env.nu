@@ -108,3 +108,4 @@ $env.NEMU_HOME = '/home/geoffrey/projects/C/ics2023/nemu'
 $env.AM_HOME = '/home/geoffrey/projects/C/ics2023/abstract-machine'
 
 $env.PATH = ($env.PATH | split row (char esep) | prepend '/home/geoffrey/.cargo/bin')
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/geoffrey/softwares/llvm/bin')

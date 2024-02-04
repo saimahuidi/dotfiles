@@ -18,6 +18,7 @@ local config = function()
       cwd = "${workspaceFolder}",
     },
   }
+  dap.configurations.cpp = dap.configurations.c
 end
 return {
   "mfussenegger/nvim-dap",

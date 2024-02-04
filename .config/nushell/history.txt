@@ -1927,3 +1927,446 @@ ls
 ls -a
 ./auto_update.nu
 ls
+./auto_push.nu
+cd ..
+cd projects/C++/leveldb/
+vi
+cd
+cd .config/nvim/
+vi
+cd ..
+ls
+vi
+cd ..
+cd projects/C++/leveldb/
+vi
+ls
+vi
+ls
+vi
+cd 
+cd .config/nvim/
+hx lua/plugins/tools_plugins/projects.lua
+vi
+cd
+cd projects/C++/executor_demo/
+vi
+git init
+vi
+cd
+cd .config/nvim/
+hx lua/core/basic.lua
+vi
+hx lua/core/basic.lua
+vi
+vi ../clangd/config.yaml
+clangd -h
+clangd --help-list-hidden
+vi
+cd 
+cd .config/nvim/
+hx lua/plugins/lsp_plugins/lspconfig.lua
+vi
+vi
+hx lua/plugins/plugin_init.lua
+vi
+cd
+cd projects/C++/executor_demo/
+ls
+g++ -std=c++20 executor.cpp
+./a.out
+ls
+g++ -0g -std=c++20 executor.cpp
+g++ -Og -std=c++20 executor.cpp
+vi
+ls
+cd
+cd projects/C++/executor_demo/
+gdb a.out
+ls
+g++ -Og -g -std=c++20 executor.cpp
+gdb a.out
+ps
+ps | where name = gdb
+ps | where name ~= gdb
+ps
+vi
+cd ..
+cd projects/C++/executor_demo/
+vi
+cd
+cd projects/C++/executor_demo/
+vi
+vi
+ls
+g++ -g -std=c++20 executor.cpp
+./a.out
+g++ -g -std=c++20 executor.cpp
+./a.out
+cd
+cd projects/C++/executor_demo/
+g++ -g -std=c++20 executor.cpp
+cd projects/C++/executor_demo/
+g++ -g -std=c++20 executor.cpp
+vi
+ls
+vi
+cd projects/C++/executor_demo/
+g++ -g -std=c++20 executor.cpp
+ls
+./a.out
+g++ -g -std=c++20 executor.cpp
+./a.out
+vi
+cd
+ls
+cd
+cd projects/Rust/
+ls
+cd mini-lsm/
+ls
+vi
+cd ..
+ls
+cd hello_cargo/
+cd ..
+ls
+cd hello_cargo/
+vi
+ls
+cd
+ls
+cd projects/C++/executor_demo/
+vi
+g++ -g -std=c++20 executor.cpp
+./a.out
+vi
+ps
+ps | where cpu > 1
+ls
+./a.out
+ps
+ps | where name = gdb
+ps | where name == gdb
+ps | where name == gdb | select pid
+ps | where name == gdb | select pid | echo
+ps | where name == gdb | select pid | into string 
+ps | where name == gdb | select pid | describe 
+ps | where name == gdb | select pid
+extern --help 
+ps | where name == gdb | select pid | describe 
+ps | where name == gdb | select pid | print
+ps | where name == gdb | select pid | print | complete 
+which ecoh
+which echo
+ps | where name == gdb | select pid | echo
+kill --help 
+ps | where name == gdb
+ps | where name == gdb | kill $in.pid
+kill --help 
+enumerate --help
+ps | where name == gdb | enumerate | kill $in.pid
+ps | where name == gdb | enumerate 
+each --help
+ps | where name == gdb | each
+each --help
+enumerate --help
+each --help
+ps | where name == gdb | select pid | each { print $in.pid }
+ps | where name == gdb | select pid | each { kill $in.pid }
+ps | where name == gdb
+ps
+ps | where name == nvim | select pid | each { kill $in.pid }
+vi
+ps | where name == nu | select pid | each { echo }
+ps | where name == nu | select pid | each { echo $in }
+ps | where name == /usr/bin/nu | select pid | each { echo $in }
+ps | where name == /usr/bin/nu | select pid | enumerate | each { echo $in }
+ps | where name == /usr/bin/nu | select pid | each { echo $in }
+ps | where name == gdv
+ps | where name == gdb
+gdb -lps
+gdb -lpp
+gdb -lsp
+gdb --help
+gdb lsp
+cd
+vi
+gdb -i lsp
+vi
+zellij
+ps
+zellij --help
+zellij options
+zellij list-sessions
+zellij delete-all-sessions
+zellij list-sessions
+zellij kill-all-sessions
+zellij -h
+zellij help
+zellij help edit
+zellij help
+zellij setup
+zellij list-sessions
+zellij delete-all-sessions
+zellij help setup
+zellij setup --check
+mkdir ~/.config/zellij
+zellij setup --check
+zellij setup -h
+open --help 
+which cat
+zellij setup -h
+zellij setup --dump-config out> .config/zellij/config.kdl
+zellij setup --check
+echo $EDITOR
+vi .config/zellij/config.kdl
+vi .config/nushell/config.nu
+echo hello | describe 
+echo hello out> tmp
+echo hello out> test
+vi test
+rm test
+ps out> test
+ls
+rm test
+ls
+cd .config/nushell/
+ls
+git clone https://github.com/nushell/nu_scripts.git
+ls
+vi config.nu
+source --help 
+source-env --help 
+config nu
+vi config.nu
+cd
+which git
+git -h
+git --help
+config nu
+vi .config/nushell/config.nu
+vi
+vi --version
+nvim .config/nushell/config.nu
+cd
+nvim .config/nushell/config.nu
+cd
+vi .config/nushell/env.nu
+cd
+config nu
+echo $env.EDITOR
+config --help
+config env
+vi
+vi --version
+vim --version
+config env
+config --help
+config
+config nu
+git help 
+cd
+ls
+vi
+ls
+g++ -g -std=c++20 executor.cpp
+ls
+g++ -g -std=c++20 executor.cpp
+g++ -g -std=c++20 -pthread executor.cpp
+./a.out
+g++ -g -std=c++20 -pthread executor.cpp
+./a.out
+ls
+cd tmp/
+ls
+rm *
+ls
+vi main.cpp
+clangd --help-list-hidden
+clangd --help-list-hidden | print
+clangd --help-list-hidden | describe 
+clangd --help-list-hidden | into string 
+clangd --help-list-hidden | into string | describe 
+clangd --help-list-hidden | decode 
+decode --help 
+encode --help 
+echo hello
+echo hello | describe 
+echo hello | encode | describe 
+encode --help 
+echo hello | cat
+echo hello | ^cat
+echo hello | describe 
+clangd --help-list-hidden | encode | str contains modules
+clangd --help-list-hidden | decode | str contains modules
+cd
+vim .config/clangd/config.yaml
+vi tmp/main.cpp
+ls
+cd tmp/
+vi main.cpp
+vi ../.config/clangd/config.yaml
+vi main.cpp
+rm main.cpp
+ls
+vi main.cppm
+vi Example.ixx
+mv Example.ixx E
+mv E Example.cppm
+ls
+vi Example.cppm
+vi main.cppm
+clang++ --version
+clang --version
+vi main.cppm
+g++ -g -std=c++20 main.cppm
+gcc --version
+man gcc
+man g++
+vi math.cpp
+vim client.cpp
+ls
+g++ -c -std=c++20 -fmodules-ts math.cpp
+ls
+rm *.cppm
+ls
+g++ -std=c++20 -fmodules-ts client.cpp math.o -o client
+ls
+./client
+ls
+cd gcm.cache/
+ls
+cd ..
+ls
+rm -r client gcm.cache/ math.o
+ls
+mv client.cpp client.cppm
+mv math.cpp math.cppm
+ls
+vi ../.config/clangd/config.yaml
+clang++ -std=c++20 -c math.cppm --precompile -o math.pcm
+cd
+cd softwares/
+ls
+cd clangd_17.0.3/
+ls
+cd bin/
+ls
+cd
+cd tmp/
+sudo apt install clang
+cd ..
+cd downloads/
+wget https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.1/clang-17.0.1.src.tar.xz
+tar xvf clang-17.0.1.src.tar.xz --directory=../softwares/
+cd ..
+cd softwares/
+ls
+cd clang-17.0.1.src/
+ls
+vi README.txt
+vi INSTALL.txt
+cd ..
+rm -r clang-17.0.1.src/
+cd ..
+cd downloads/
+ls
+rm *
+ls
+cd ..
+cd tmp/
+ls
+vi client.cppm
+wget https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.1/clang+llvm-17.0.1-amd64-pc-solaris2.11.tar.xz
+tar xvf clang+llvm-17.0.1-amd64-pc-solaris2.11.tar.xz --directory=../softwares/
+cd ..
+ls
+cd softwares/
+ls
+mv clang+llvm-17.0.1-amd64-pc-solaris2.11/ llvm
+cd ..
+cd ..
+ls
+vi .config/nushell/env.nu
+zellij
+ls
+vi .config/nushell/env.nu
+ls
+cd tmp/
+ls
+clang++ -std=c++20 -c math.cppm --precompile -o math.pcm
+clang++ --version
+cd
+cd softwares/llvm/
+ls
+cd bin/
+ls
+./clang++
+cd ..
+cd
+cd downloads/
+ls
+cd
+cd softwares/llvm/
+ls
+cd bin/
+ls
+readelf -h clang++
+./clang++
+zellij
+zsh
+rm -r softwares/llvm/ downloads/clang+llvm-17.0.1-amd64-pc-solaris2.11.tar.xz
+cd downloads/
+wget https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04.tar.xz
+tar xvf clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04.tar.xz --directory=../softwares/
+cd
+cd softwares/
+mv clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04/ llvm
+./clang++ --version
+cd llvm/
+ls
+cd bin/
+ls
+./clang++
+zellij
+clang++ --version
+cd
+cd tmp/
+ls
+clang++ -std=c++20 -c math.cppm --precompile -o math.pcm
+ls
+vi client.cppm
+which clangd
+clangd --version
+vi
+cd ..
+cd downloads/
+rm clang+llvm-17.0.6-x86_64-linux-gnu-ubuntu-22.04.tar.xz
+ls
+cd
+clang --version
+vi
+cd tmp/
+ls
+vi client.cppm
+cd ..
+vi
+cd tmp/
+ls
+vi client.cppm
+ls
+musl
+clang++ -std=c++20 client.cpp -fprebuilt-module-path=. math.pcm -o client.exe
+clang++ -std=c++20 client.cppm -fprebuilt-module-path=. math.pcm -o client
+./client
+clang++ -std=c++20 client.cppm -fprebuilt-module-path=. math.pcm -o client
+vi client.cppm
+cd
+ls
+ps
+zellij
+zellij kill-all-sessions
+ls
+cd
+cd .config/

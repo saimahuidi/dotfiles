@@ -763,5 +763,6 @@ $env.config = {
 
 # start starship
 use ~/.cache/starship/init.nu
+source "~/.config/nushell/nu_scripts/custom-completions/git/git-completions.nu"
 alias vi = nvim
 alias vim = nvim
