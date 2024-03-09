@@ -2370,3 +2370,234 @@ zellij kill-all-sessions
 ls
 cd
 cd .config/
+./auto_push.nu
+ls
+config nu
+config --help
+sudo update-alternatives --install /usr/bin/vim vim /home/geoffrey/softwares/nvim-linux64/bin/nvim 110
+config --help
+config nu
+sudo update-alternatives --install /usr/bin/vi vi /home/geoffrey/softwares/nvim-linux64/bin/nvim 110
+config nu
+cd
+config nu
+cd
+config nu
+vi .config/nushell/env.nu
+config nu
+cd
+cd .config/nushell/nu_scripts/
+ls
+cd custom-completions/
+cd ..
+ls sourced/
+ls custom-completions/**
+ls custom-completions/**/*.nu
+source --help 
+config nu
+cd
+source /home/geoffrey/.config/nushell/nu_scripts/custom-completions/
+source /home/geoffrey/.config/nushell/nu_scripts/custom-completions/git/
+config nu
+"hello" + " world"
+config nu
+const --help 
+config nu
+source /home/geoffrey/.config/nushell/nu_scripts/custom-completions/**/*.nu
+config nu
+version --help 
+version
+path --help 
+path dirname 
+path dirname --help 
+path --help 
+source /home/geoffrey/.config/nushell/nu_scripts/custom-completions/git/git-completions.nu /home/geoffrey/.config/nushell/nu_scripts/custom-completions/man/man-completions.nu
+source --help 
+shells
+shells --help 
+cd .config/nushell/nu_scripts/custom-completions/git/
+ls
+source-env git-completions.nu 
+ls
+source-env ./git-completions.nu 
+source-env --help
+source-env git-completions.nu 
+source-env /home/geoffrey/.config/nushell/nu_scripts/custom-completions/git/git-completions.nu 
+cd
+source-env /home/geoffrey/.config/nushell/nu_scripts/custom-completions/git/git-completions.nu 
+ls
+config nu
+cd
+config nu
+cd
+config nu
+cd
+ls
+cd
+ls
+cd
+ls
+vi
+ls
+vi
+ls
+cd projects/Rust/
+ks
+cd mini-lsm/
+ls
+git pull 
+git log
+cd ..
+ls
+cd hello_cargo/
+vi
+ls
+cd
+ls
+ls
+l
+ps
+ls
+cd projects/Rust/mini-lsm/
+ls
+vi
+ls
+cd
+ls
+vi
+ls
+vi
+ls
+cd
+ls
+env 
+config nu
+cargo install nu
+cd
+ls
+cd
+config nu
+ls
+cd
+ls
+cargo install nu
+which nu
+nu --version
+cd
+info 
+nu --version
+which nu
+sudo chsh
+/usr/bin/nu --version
+chsh -s /home/geoffrey/.cargo/bin/nu
+sudo vi /etc/shells
+chsh -s /home/geoffrey/.cargo/bin/nu
+cd
+which nu
+chsh --help
+ls
+cd
+ls
+cd projects/Rust/mini-lsm/
+vim
+cd ..
+ls
+cd hello_cargo/
+ls
+vim
+ls
+tree
+ls
+cd ..
+ls
+cargo new adder --lib
+cd adder/
+ls
+tree
+ls
+cargo test
+cargo test --help
+cargo test -- --help
+cargo test --help
+vim src/lib.rs
+ls
+vim
+ls
+git log
+git fetch 
+git log
+git pull 
+ls
+cargo x --help
+vi
+ls
+cargo x --help
+cargo x
+cargo --list
+cd ..
+cargo --list
+cd mini-lsm/
+zellij 
+cd projects/Rust/mini-lsm/
+ls
+cargo --list
+vi
+cd
+cd projects/Rust/hello_cargo/
+vi
+cd ../mini-lsm/
+vi
+ls
+cargo x scheck
+vi
+cargo x scheck
+vi
+cargo x scheck
+vi
+cargo x scheck
+ls
+cargo x scheck
+vi
+ls
+cargo x scheck
+ls
+vi
+cd
+ls
+python3 --version
+python3
+python
+python3
+ls
+cd downloads/
+ls
+wget https://repo.anaconda.com/miniconda/Miniconda3-py310_24.1.2-0-Linux-x86_64.sh
+ls
+sh Miniconda3-py310_24.1.2-0-Linux-x86_64.sh
+cd
+conda
+ls
+./miniconda3/bin/conda --help
+./miniconda3/bin/conda init
+sudo update-alternatives --install /usr/bin/conda conda /home/geoffrey/miniconda3/bin/conda 110
+conda create --name d2l python=3.9 -y
+ls
+cd pythonenv/
+ls
+cd ..
+ls
+conda --help
+conda remove d2l
+conda remove --name d2l --all
+conda create --name d2l python=3.10 -y
+conda activate d2l
+conda init
+conda activate d2l
+ls
+cd
+zsh --version
+sudo apt install zsh
+zsh
+chsh --help
+chsh -s
+chsh -s /usr/bin/zsh
