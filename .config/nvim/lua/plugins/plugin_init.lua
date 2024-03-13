@@ -67,6 +67,8 @@ local projects = require(tools_plugins_prefix .. "projects")
 table.insert(all_plugins, projects)
 local trouble = require(tools_plugins_prefix .. "trouble")
 table.insert(all_plugins, trouble)
+local suda = require(tools_plugins_prefix .. "suda")
+table.insert(all_plugins, suda)
 
 -- about colorscheme
 local colorscheme_plugins_path = vim.fn.stdpath("config") .. "/lua/plugins/colorscheme_plugins"

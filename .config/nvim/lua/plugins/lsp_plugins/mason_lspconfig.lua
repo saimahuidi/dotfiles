@@ -1,4 +1,4 @@
-local ensure_installed = { "lua_ls", "pyright" }
+local ensure_installed = { "lua_ls", "pyright", "nil_ls" }
 local config = function()
   require("mason-lspconfig").setup { ensure_installed = ensure_installed }
   local lspconfig = require("lspconfig")
@@ -21,6 +21,7 @@ local config = function()
   lspconfig.cmake.setup {}
   lspconfig.pyright.setup {}
   lspconfig.nushell.setup {}
+  lspconfig.nil_ls.setup {}
   lspconfig.rust_analyzer.setup {
     settings = {
       checkOnSave = {
@@ -37,6 +38,7 @@ local config = function()
       },
     },
   }
+
 end
 
 return {

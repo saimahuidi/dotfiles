@@ -92,7 +92,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
     -- Buffer local mappings.
     -- See `:help vim.lsp.*` for documentation on any of the below functions
-    local opts = { buffer = ev.buf }
-    vim.lsp.inlay_hint.enable()
+    if vim.fn.has("nvim-0.10.0")==1 then
+      vim.lsp.inlay_hint.enable()
+    end
   end,
 })
