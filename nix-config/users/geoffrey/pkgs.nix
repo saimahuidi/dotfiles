@@ -36,6 +36,7 @@
     # utils
     btop
     micromamba
+    eza
 
     # compiler
     cargo
