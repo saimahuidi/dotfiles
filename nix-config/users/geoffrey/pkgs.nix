@@ -46,6 +46,7 @@
     alacritty
     firefox
     logseq
+    qq
   ];
 
   # Enable home-manager
