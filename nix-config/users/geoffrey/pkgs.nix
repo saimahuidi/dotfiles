@@ -45,6 +45,7 @@
     #gui
     alacritty
     firefox
+    logseq
   ];
 
   # Enable home-manager
