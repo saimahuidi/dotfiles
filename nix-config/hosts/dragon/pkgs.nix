@@ -2,6 +2,7 @@
   pkgs,
   ...
 }: {
+
   environment.systemPackages = with pkgs; [
     # archives
     zip
@@ -14,6 +15,7 @@
     zsh
     tmux
     vim
+    home-manager
 
     #network
     git
@@ -22,5 +24,9 @@
 
     # compiler
     gcc
+  ];
+
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" ]; })
   ];
 }

@@ -6,7 +6,7 @@
     enable = true;
 
     settings = {
-      fonts.normal = { family = "FiraCode Nerd Font"; };
+      font.normal = { family = "FiraCode Nerd Font"; };
     };
   };
 }

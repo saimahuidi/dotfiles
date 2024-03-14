@@ -13,6 +13,8 @@
 
     hardware.url = "github:nixos/nixos-hardware";
 
+    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
+
     # Shameless plug: looking for a way to nixify your themes and make
     # everything match nicely? Try nix-colors!
     # nix-colors.url = "github:misterio77/nix-colors";

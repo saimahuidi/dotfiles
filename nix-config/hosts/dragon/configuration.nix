@@ -15,7 +15,8 @@
 
     # You can also split up your configuration and import pieces of it here:
     ./pkgs.nix
-
+    ../common/gui.nix
+    ./users.nix
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
   ];
@@ -24,7 +25,7 @@
     # You can add overlays here
     overlays = [
       # If you want to use overlays exported from other flakes:
-      # neovim-nightly-overlay.overlays.default
+      inputs.neovim-nightly-overlay.overlays.default
 
       # Or define it inline, for example:
       # (final: prev: {
@@ -64,23 +65,21 @@
 
   networking.hostName = "dragon";
 
-  boot.loader.systemd-boot.enable = true;
-
-  users.users = {
-    # FIXME: Replace with your username
-    geoffrey = {
-      # TODO: You can set an initial password for your user.
-      # If you do, you can skip setting a root password by passing '--no-root-passwd' to nixos-install.
-      # Be sure to change it (using passwd) after rebooting!
-      initialPassword = "4428148";
-      isNormalUser = true;
-      openssh.authorizedKeys.keys = [
-        # TODO: Add your SSH public key(s) here, if you plan on using SSH to connect
-      ];
-      # TODO: Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
-      extraGroups = ["networkmanager" "wheel"];
+    # Bootloader.
+  boot.loader = {
+    # efi = {
+    #   canTouchEfiVariables = true;
+    #   efiSysMountPoint = "/boot/efi"; # ← use the same mount point here.
+    # };
+    grub = {
+      enable = true;
+      device = "/dev/sda";  #  "nodev"
+      useOSProber = true;
+      #efiInstallAsRemovable = true; # in case canTouchEfiVariables doesn't work for your system
     };
   };
+
+  networking.networkmanager.enable = true;
 
   # This setups a SSH server. Very important if you're setting up a headless system.
   # Feel free to remove if you don't need it.
