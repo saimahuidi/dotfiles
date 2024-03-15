@@ -47,6 +47,7 @@
     firefox
     logseq
     qq
+    wpsoffice
   ];
 
   # Enable home-manager
