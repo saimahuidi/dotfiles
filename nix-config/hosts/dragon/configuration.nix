@@ -15,10 +15,11 @@
 
     # You can also split up your configuration and import pieces of it here:
     ./pkgs.nix
-    ../common/gui.nix
     ./users.nix
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
+    ../common/gui.nix
+    ../common/nix-conf.nix
   ];
 
   nixpkgs = {
