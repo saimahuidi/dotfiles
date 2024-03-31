@@ -19,6 +19,9 @@
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
     ../common/nix-conf.nix
+    ../common/pkgs.nix
+    ../common/users.nix
+    ../common/environment.nix
   ];
 
   wsl.enable = true;

@@ -14,7 +14,7 @@
     htop
     zsh
     tmux
-    vim
+    nvim
     home-manager
 
     #network

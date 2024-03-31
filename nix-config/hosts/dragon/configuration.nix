@@ -18,8 +18,11 @@
     ./users.nix
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
+    ../common/pkgs.nix
+    ../common/users.nix
     ../common/gui.nix
     ../common/nix-conf.nix
+    ../common/environment.nix
   ];
 
   nixpkgs = {
