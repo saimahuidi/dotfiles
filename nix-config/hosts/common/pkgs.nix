@@ -14,7 +14,7 @@
     htop
     zsh
     tmux
-    nvim
+    neovim
     home-manager
 
     #network
