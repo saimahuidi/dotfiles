@@ -5,9 +5,8 @@
 }: {
 
   imports = [
-    ./configs/alacritty.nix
-    ./configs/git.nix
-    ./configs/neovim.nix
+    ../configs/git.nix
+    ../configs/neovim.nix
   ];
 
   nixpkgs = {
@@ -37,17 +36,11 @@
     btop
     micromamba
     eza
+    tldr
 
     # compiler
     cargo
     nodejs
-
-    #gui
-    alacritty
-    firefox
-    logseq
-    qq
-    wpsoffice
   ];
 
   # Enable home-manager

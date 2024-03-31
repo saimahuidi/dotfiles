@@ -4,7 +4,10 @@
   inputs = {
     # Nixpkgs
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-
+    
+    #wsl
+    nixos-wsl.url = "github:nix-community/nixos-wsl";
+    
     # Home manager
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -38,6 +41,15 @@
           ./hosts/dragon/configuration.nix
         ];
       };
+
+      dragon_wsl = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs outputs;};
+        # > Our main nixos configuration file <
+        modules = [
+          ./hosts/dragon_wsl/configuration.nix
+          inputs.nixos-wsl.nixosModules.wsl
+        ];
+      };
     };
 
     # Standalone home-manager configuration entrypoint
@@ -49,6 +61,15 @@
         # > Our main home-manager configuration file <
         modules = [
           ./users/geoffrey/home.nix
+        ];
+      };
+
+      geoffrey_nogui = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
+        extraSpecialArgs = {inherit inputs outputs;};
+        # > Our main home-manager configuration file <
+        modules = [
+          ./users/geoffrey_nogui/home.nix
         ];
       };
     };
