@@ -9,5 +9,11 @@
 
     userName = "geoffrey";
     userEmail = "geoffrey2gong@gmail.com";
+    
+    extraConfig = {
+      core = {
+        editor = "nvim";
+      };
+    };
   };
 }
