@@ -42,11 +42,9 @@
     cmake
 
     # compiler
-    cargo
+    rustup
     nodejs
 
-    # lsp
-    rust-analyzer
   ];
 
   # Enable home-manager
