@@ -14,8 +14,6 @@
     # inputs.hardware.nixosModules.common-ssd
 
     # You can also split up your configuration and import pieces of it here:
-    ./pkgs.nix
-    ./users.nix
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
     ../common/nix-conf.nix
