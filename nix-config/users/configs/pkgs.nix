@@ -41,6 +41,9 @@
     # compiler
     cargo
     nodejs
+
+    # lsp
+    rust-analyzer
   ];
 
   # Enable home-manager
