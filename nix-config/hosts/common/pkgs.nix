@@ -16,6 +16,7 @@
     tmux
     neovim
     home-manager
+    gnumake
 
     #network
     git

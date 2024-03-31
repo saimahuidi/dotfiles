@@ -38,6 +38,9 @@
     eza
     tldr
 
+    #build tools
+    cmake
+
     # compiler
     cargo
     nodejs
